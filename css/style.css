@@ -1,2 +1,57 @@
 @import url('reset.css');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    height: 100vh;
+    background: url('../img/background.jpg') center center/cover no-repeat;
+    font-family: Roboto;
+}
+
+.container {
+    max-width: 1030px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 46px;
+}
+
+.header__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    display: flex;
+    gap: 8px;
+}
+
+.header__logo_text {
+    font-weight: 700;
+    line-height: 1;
+    color: #FFFFFF;
+}
+
+.header__logo_text_up {
+    font-size: 29px;
+}
+
+.header__logo_text_down {
+    font-size: 18px;
+}
+
+.header__contact {
+    height: 61px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header__contact a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    color: #FFFFFF;
+}
+
